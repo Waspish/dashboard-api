@@ -15,4 +15,8 @@ userRouter.post('/register', (req, res) => {
 	res.send('register');
 });
 
+userRouter.get('/', (req, res) => {
+  res.send('Users endpoint works');
+});
+
 export { userRouter };
